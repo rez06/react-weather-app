@@ -45,7 +45,7 @@ function App() {
           />
         </ul>
       )}
-      <p className="coder">Coded by <a href='#'>Rezyl Pelobello</a></p>
+      <p className="coder">Coded by <a href='https://github.com/rez06/react-weather-app'>Rezyl Pelobello</a></p>
     </div>
   );
 }
