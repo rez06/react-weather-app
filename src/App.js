@@ -30,8 +30,8 @@ function App() {
 
   return (
     <div className="App">
-      <input type="text" value={city} onChange={handleCityChange} />
-      <button onClick={handleWeatherSearch}>Search</button>
+      <input type="text" className='cityBtn' value={city} onChange={handleCityChange} />
+      <button className='submitBtn' onClick={handleWeatherSearch}>Search</button>
       {temperature && (
         <ul className="temp-info">
           <li>City Name: {city} </li>

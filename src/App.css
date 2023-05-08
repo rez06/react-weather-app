@@ -31,6 +31,16 @@
 
 .temp-info{
   list-style: none;
+  padding:1rem;
+}
+
+.cityBtn,
+.submitBtn{
+  border: none;
+  padding:1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.90rem;
+  color:rgb(123, 120, 120);
 }
 
 .coder{
